@@ -1,0 +1,209 @@
+*{
+    box-sizing: bording-box;
+}
+
+h1{font-size: 3.5em;}
+
+h2{font-size: 2.7em;}
+
+h3{font-size: 3em;}
+
+body{
+    font-family: 'Roboto', sans-serif;  
+    margin: 0;
+}
+
+#whatsapp{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: #33ff33;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+#facebook{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: blue;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+#instagram{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    background-color: beige;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+#tiktok{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: cyan;
+    background-color: black;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: red
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto
+}
+
+.color-tri-ins{color: #ffb700;}
+
+.color-tri-tag{color: #ff0045;}
+
+.color-tri-ram{color: #f700ff;}
+
+.color-bi-tok{color: #ff3365;}
+
+header{
+    background-color: white;
+}
+
+header .logo{
+    margin: 0;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #573d38;
+    font-size: 5.0em;
+}
+
+header h2{
+    margin: 0;
+    padding: 5px 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#573d38;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+header a{
+    padding: 2px 2px;
+    text-decoration: none;
+    font-size: 3.0em;
+    color: #ffca70;
+}
+
+header a:hover{
+    color: red;
+}
+
+#inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    )
+    ,url("prioridades2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#inicio h1{
+    font-family: 'Arial Black';
+    font-size: 4.0em;
+    color: white;
+    font-weight: bold;
+}
+
+#texto_base .container{
+    text-align: center;
+    padding: 75px 30px;
+    background-color: #c05735;
+    font-size: 2.2em;
+    font-family: 'Comic Sans MS';
+}
+
+#img_separador .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_div{
+    margin-top: 50px;
+    width: 1500px;
+}
+
+#citas_biblicas{
+    background-color: #CDA434;
+}
+
+#citas_biblicas h3{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#citas_biblicas p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 2.5em;
+    font-family: 'Times New Romans';
+}
+
+#alabanzas h3{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#alabanzas{
+    background-color: #0F4458;
+}
+
+#alabanzas iframe{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+/* 
+color1 = #573d38 cafe oscuro;
+color2 = #c05735 terracota;
+color3 = #ffca70 arena;
+color4 = #ffffff blanco;
+*/
